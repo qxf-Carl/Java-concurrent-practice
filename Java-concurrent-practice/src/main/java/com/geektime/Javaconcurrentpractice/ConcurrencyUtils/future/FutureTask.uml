@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.FutureTask</OriginalElement>
+  <nodes>
+    <node x="31.5" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="150.75000000000003" y="302.0">java.util.concurrent.RunnableFuture</node>
+    <node x="294.0" y="85.0">java.util.concurrent.Future</node>
+    <node x="52.75000000000006" y="415.0">java.util.concurrent.FutureTask</node>
+    <node x="149.0" y="137.0">java.util.concurrent.Callable</node>
+    <node x="0.0" y="137.0">java.lang.Runnable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.Callable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-31.5" />
+      <point x="211.5" y="60.0" />
+      <point x="191.25" y="60.0" />
+      <point x="53.25" y="17.5" />
+    </edge>
+    <edge source="java.util.concurrent.FutureTask" target="java.util.concurrent.RunnableFuture">
+      <point x="-2.8421709430404007E-14" y="-240.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableFuture" target="java.util.concurrent.Future">
+      <point x="43.24999999999997" y="-31.5" />
+      <point x="280.5" y="277.0" />
+      <point x="410.0" y="277.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-31.5" />
+      <point x="64.5" y="60.0" />
+      <point x="84.75" y="60.0" />
+      <point x="-53.25" y="17.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableFuture" target="java.lang.Runnable">
+      <point x="-43.25000000000003" y="-31.5" />
+      <point x="194.0" y="277.0" />
+      <point x="64.5" y="277.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9387978142076503" x="263.0" y="447.5" />
+  <SelectedNodes>
+    <node>java.util.concurrent.FutureTask</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
