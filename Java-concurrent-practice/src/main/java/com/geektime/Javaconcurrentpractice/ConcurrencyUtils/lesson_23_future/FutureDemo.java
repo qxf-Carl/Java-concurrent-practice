@@ -1,4 +1,4 @@
-package com.geektime.Javaconcurrentpractice.ConcurrencyUtils.future;
+package com.geektime.Javaconcurrentpractice.ConcurrencyUtils.lesson_23_future;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
